@@ -1,7 +1,7 @@
 import math
 n=int(input())
-s=math.sqrt(n)
-if int(s)*int(s)==n:
+sq=math.sqrt(n)
+if int(sq)*int(sq)==n:
     print(True)
 else:
     print(False)
